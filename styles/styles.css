@@ -170,3 +170,26 @@ main section{
 .resume-download{
     margin: 50px 0px;
 }
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.foot-icon{
+    display: flex;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
+}
+.form-gap{
+    gap: 10px;
+}
